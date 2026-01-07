@@ -34,7 +34,7 @@
    Diese Message ist problematisch, weil nicht klar wird, welcher Fehler behoben wurde. Besonders bei Teamarbeit fehlt dadurch wichtiger Kontext, und andere Entwickler wissen nicht, welches Problem gelöst wurde.
 
 
-# Grenzfälle bei Commit-Messages
+# Feinschliff der Nachrichten
 
 ## 1. „Update“
 - **Unklar:** Was wurde aktualisiert?
@@ -59,3 +59,22 @@
 - **Fehlt:** Konkrete Änderung
 - **Akzeptabel:** Kleine Änderungen
 - **Besser:** Improve readability by renaming variables
+
+### Feedback-Austausch (Durch Raphael)
+
+Ich habe meine neuen Messages mit Raphael gecheckt. Hier ist sein Feedback:
+
+* **Feedback zu "Update calculator logic":**
+    * Raphael: "Schon besser als 'Update', aber immer noch ein bisschen kacke. Man weiß nicht, ob du ein neues Feature eingebaut oder eine Formel korrigiert hast.
+    * Verbesserungsvorschlag: Konkreter werden, z.B.: `Update: Fix percent calculation logic in calculator`.
+
+* **Feedback zu "Refactor calculator code":**
+    * Raphael: Klingt gut, aber 'Refactor' kann alles sein. Hast du den Code nur schöner gemacht oder komplett umgebaut?
+    * Verbesserungsvorschlag: Das Ziel nennen, z.B.: `Refactor calculator: Split large functions for better structure`.
+
+* **Feedback zu "Improve readability by renaming variables":**
+    * Raphael: Das ist gut, aber schreib am besten noch dazu, in welcher Klasse oder Datei du die Variablen umbenannt hast.
+    * Verbesserungsvorschlag: Ort ergänzen, z.B.: `Improve readability: Rename variables in AuthController`.
+
+**Gesamtfazit vom Austausch:**
+Raphael meinte, dass meine Messages zwar schon viel klarer sind, ich aber noch öfter den genauen Ort (welches File oder welche Funktion) mit reinschreiben sollte, damit man im Team nicht suchen muss.
