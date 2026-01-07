@@ -1,0 +1,34 @@
+# Station 1 – Vokal
+## Gute Commit-Messages
+- Eingabeprüfung hinzufügen
+- Login-Fehler beheben
+- Rechner-Logik verbessern
+- Division durch Null abfangen
+- Ungenutzten Code entfernen
+- Fehlermeldung bei falscher Eingabe hinzufügen
+- Code zur besseren Übersicht umstrukturieren
+- Absturz beim Start beheben
+- Berechnungsformel aktualisieren
+- Einfache Tests hinzufügen
+
+## Schlechte Commit-Messages
+- Update / stuff / cleanup  
+  *(Viel zu ungenau)*  
+- Fix bug / small fixes  
+  *(Man weiß nicht, welcher Bug gemeint ist)*  
+- Final version  
+  *(Gibt es beim Programmieren eigentlich nie)*  
+- Changes in app / adjust logic  
+  *(Sagt nichts Konkretes aus)*  
+- Update calculator / rename variables  
+  *(Zu wenig Informationen)*  
+- Temporary fix / improve readability  
+  *(Zu schwammig formuliert)*  
+
+## Warum sind gute Commit-Messages wichtig? (3 Beispiele)
+1. **„stuff“**  
+   Diese Message ist völlig nichtssagend. Wenn man später nachvollziehen möchte, was geändert wurde, hilft sie überhaupt nicht weiter. Man müsste den gesamten Code durchsuchen, um die Änderung zu finden.
+2. **„Add login validation“**  
+   Diese Commit-Message ist klar und präzise. Man erkennt sofort, dass eine Login-Überprüfung hinzugefügt wurde, und weiß genau, wo man bei Bedarf nachschauen muss.
+3. **„Fix bug“**  
+   Diese Message ist problematisch, weil nicht klar wird, welcher Fehler behoben wurde. Besonders bei Teamarbeit fehlt dadurch wichtiger Kontext, und andere Entwickler wissen nicht, welches Problem gelöst wurde.
