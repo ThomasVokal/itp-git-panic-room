@@ -32,3 +32,30 @@
    Diese Commit-Message ist klar und präzise. Man erkennt sofort, dass eine Login-Überprüfung hinzugefügt wurde, und weiß genau, wo man bei Bedarf nachschauen muss.
 3. **„Fix bug“**  
    Diese Message ist problematisch, weil nicht klar wird, welcher Fehler behoben wurde. Besonders bei Teamarbeit fehlt dadurch wichtiger Kontext, und andere Entwickler wissen nicht, welches Problem gelöst wurde.
+
+
+# Grenzfälle bei Commit-Messages
+
+## 1. „Update“
+- **Unklar:** Was wurde aktualisiert?
+- **Fehlt:** Betroffener Bereich
+- **Akzeptabel:** Kleines Privatprojekt
+- **Besser:** Update calculator logic
+
+## 2. „Fix bug“
+- **Unklar:** Welcher Bug?
+- **Fehlt:** Beschreibung des Fehlers
+- **Akzeptabel:** Wenn nur ein Bug existiert
+- **Besser:** Fix crash on startup
+
+## 3. „Refactor code“
+- **Unklar:** Welcher Code?
+- **Fehlt:** Ziel oder Bereich
+- **Akzeptabel:** Sehr kleines Projekt
+- **Besser:** Refactor calculator code
+
+## 4. „Improve readability“
+- **Unklar:** Was genau?
+- **Fehlt:** Konkrete Änderung
+- **Akzeptabel:** Kleine Änderungen
+- **Besser:** Improve readability by renaming variables
